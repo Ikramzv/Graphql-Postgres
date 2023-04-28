@@ -1,0 +1,8 @@
+query GetUser($email: String, $id: String, $username: String) {
+  getUser(email: $email, id: $id, username: $username) {
+    id
+    username
+    email
+    image
+  }
+}

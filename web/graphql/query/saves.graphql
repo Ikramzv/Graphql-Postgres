@@ -1,0 +1,12 @@
+query SavedPosts {
+  savedPosts {
+    id
+    title
+    description
+    user {
+      id
+      username
+      image
+    }
+  }
+}

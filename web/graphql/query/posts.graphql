@@ -1,0 +1,14 @@
+query Posts {
+  posts {
+    id
+    title
+    description
+    userId
+    user {
+      username
+      email
+      image
+      id
+    }
+  }
+}

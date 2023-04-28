@@ -1,0 +1,5 @@
+fragment User on UserEntity {
+  id
+  image
+  username
+}
